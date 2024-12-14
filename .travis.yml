@@ -3,6 +3,6 @@ os:
 services:
   - docker
 install:
-  - docker build -t sssemil/consul-config-loader:travis .
+  - docker build -t eguee/consul-config-loader:travis .
 script:
   - docker images

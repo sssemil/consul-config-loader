@@ -4,7 +4,7 @@ pool:
 steps:
   - bash: |
       docker buildx create --use
-      docker buildx build --platform linux/amd64,linux/arm64 -t sssemil/consul-config-loader:travis .
+      docker buildx build --platform linux/amd64,linux/arm64 -t eguee/consul-config-loader:travis .
     displayName: 'Install'
 
   - bash: docker images

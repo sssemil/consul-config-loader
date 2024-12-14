@@ -1,3 +1,7 @@
+FROM --platform=$BUILDPLATFORM alpine:3.12 AS builder
+ARG TARGETPLATFORM
+ARG BUILDPLATFORM
+
 FROM alpine:3.12
 LABEL maintainer="Pierre Besson https://github.com/PierreBesson"
 

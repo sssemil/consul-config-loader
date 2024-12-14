@@ -2,8 +2,10 @@ pool:
   vmImage: 'Ubuntu 16.04'
 
 steps:
-- bash: docker build -t jhipster/consul-config-loader:travis .
-  displayName: 'Install'
+  - bash: |
+      docker buildx create --use
+      docker buildx build --platform linux/amd64,linux/arm64 -t sssemil/consul-config-loader:travis .
+    displayName: 'Install'
 
-- bash: docker images
-  displayName: 'Run test'
+  - bash: docker images
+    displayName: 'Run test'

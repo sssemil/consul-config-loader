@@ -1,6 +1,6 @@
 # Consul Config Loader
 
-[![Azure DevOps Build Status][azure-devops-image]][azure-devops-url-main] [![Build Status][travis-image]][travis-url] [![Docker Pulls](https://img.shields.io/docker/pulls/jhipster/consul-config-loader.svg)](https://hub.docker.com/r/jhipster/consul-config-loader/)
+[![Azure DevOps Build Status][azure-devops-image]][azure-devops-url-main] [![Build Status][travis-image]][travis-url] [![Docker Pulls](https://img.shields.io/docker/pulls/sssemil/consul-config-loader.svg)](https://hub.docker.com/r/sssemil/consul-config-loader/)
 
 A small docker based tool to load Spring Boot and/or Micronaut property files into Consul K/V Store. It features hot-reload as well as filesystem and git support.
 
@@ -60,8 +60,8 @@ consul:
 - [Consul K/V store API docs](https://www.consul.io/docs/agent/http/kv.html)
 - [Git2consul docs](https://github.com/Cimpress-MCP/git2consul)
 
-[azure-devops-image]: https://dev.azure.com/jhipster/consul-config-loader/_apis/build/status/jhipster.consul-config-loader?branchName=main
-[azure-devops-url-main]: https://dev.azure.com/jhipster/consul-config-loader/_build
+[azure-devops-image]: https://dev.azure.com/sssemil/consul-config-loader/_apis/build/status/jhipster.consul-config-loader?branchName=main
+[azure-devops-url-main]: https://dev.azure.com/sssemil/consul-config-loader/_build
 
-[travis-image]: https://travis-ci.org/jhipster/consul-config-loader.svg?branch=main
-[travis-url]: https://travis-ci.org/jhipster/consul-config-loader
+[travis-image]: https://travis-ci.org/sssemil/consul-config-loader.svg?branch=main
+[travis-url]: https://travis-ci.org/sssemil/consul-config-loader
